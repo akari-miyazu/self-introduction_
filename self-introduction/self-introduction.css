@@ -1,0 +1,138 @@
+html{
+  background-color:rgb(248, 240, 242);
+}
+
+.flower{
+    position:relative;
+}
+
+.flower h1{
+    position:absolute;
+    color:rgb(34, 22, 3);
+    top:0;
+    left: 30px;;
+}
+
+.flower p{
+    position:absolute;
+    color:rgb(34, 22, 3);
+    top: 40px;;
+    left: 120px;;
+}
+
+.flower img{
+    width:100%;
+}
+
+
+main, nav, article, aside, footer, section {
+    background-color: rgb(232, 233, 207);
+    padding: 1%;
+  }
+
+  nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+  }
+
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+    transition:all 1s;
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+  }
+
+  nav li:hover{
+    background-color:rgba(43, 87, 66, 0.582);
+    width:3px;
+    height:30px;
+    margin: 0 auto;
+  }
+
+  nav a, nav span {
+    display: inline-block;
+    font-size: 1rem;
+    height: 2rem;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(71, 46, 8);
+  
+  }body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+  
+footer{
+  margin-top: 10px;
+  color: rgb(71, 46, 8);
+}
+
+main {
+  display: flex;
+}
+
+article, section {
+  flex:0.2;
+}
+
+article img{
+  width:300px;
+}
+
+aside {
+  flex: 1;
+  margin-left: 50px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside h2{
+  color:rgb(30, 46, 39);
+  animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+
+
+aside li{
+  color:rgb(38, 56, 47);
+  animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+  list-style:none;
+  opacity:0.7;
+  padding:20px 0;
+}
+
+aside p{
+  color:rgb(46, 70, 58);
+  opacity:0.7;
+  animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+aside img{
+  width:400px;
+  height:500px;
+}
